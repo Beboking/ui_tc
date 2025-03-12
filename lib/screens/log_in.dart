@@ -31,8 +31,6 @@ class _LogInState extends State<LogIn> {
   Widget build(BuildContext context) {
     Responsive rp = Responsive(context);
 
-
-
     return Scaffold(
       body: SafeArea(
         child: Container(
@@ -102,7 +100,7 @@ class _LogInState extends State<LogIn> {
                 color: ColorsConst.securedColor,
               ),
               const DividerTc(),
-              ContinueWithTe(onTap: () async {
+              bt_principal(onTap: () async {
                 await LaunchApp.openApp(
                   androidPackageName: '',
                   iosUrlScheme: 'https://apps.apple.com/do/app/tripleenabler-ims/id6476735702?l=en-GB',

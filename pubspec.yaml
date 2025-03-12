@@ -38,6 +38,7 @@ dependencies:
   flutter_native_splash:
   flutter_svg: ^2.0.16
   external_app_launcher: ^4.0.3
+  flutter_profile_picture: ^2.0.0
 
 
 dev_dependencies:
@@ -69,6 +70,10 @@ flutter:
     - assets/verify_perfil.svg
     - assets/TE_icon.svg
     - assets/3pas_logo.svg
+    - assets/Img_4_Biometric.png
+    - assets/seguridad_cargando.svg
+    - assets/Img_5_Notifications.png
+    - assets/Img_1_Key.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

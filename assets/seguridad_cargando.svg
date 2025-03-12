@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Group_250907" data-name="Group 250907" transform="translate(-13 0.466)">
+    <g id="Group_9623" data-name="Group 9623" transform="translate(13 0)" opacity="0">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="15.5" cy="15.5" r="15.5" transform="translate(0 -0.466)" fill="#fff"/>
+    </g>
+    <path id="shield" d="M11,19.5s7-3.5,7-8.75V4.625L11,2,4,4.625V10.75C4,16,11,19.5,11,19.5Z" transform="translate(18.5 5.034)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="loader" transform="translate(24 9.534)">
+      <line id="Line_1293" data-name="Line 1293" y2="2" transform="translate(6 2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.1"/>
+      <line id="Line_1294" data-name="Line 1294" y2="2" transform="translate(6 8)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.55"/>
+      <line id="Line_1295" data-name="Line 1295" x2="1.132" y2="1.132" transform="translate(3.172 3.172)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.85"/>
+      <line id="Line_1296" data-name="Line 1296" x2="1.132" y2="1.132" transform="translate(7.696 7.696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.45"/>
+      <line id="Line_1297" data-name="Line 1297" x2="2" transform="translate(2 6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.75"/>
+      <line id="Line_1298" data-name="Line 1298" x2="2" transform="translate(8 6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.35"/>
+      <line id="Line_1299" data-name="Line 1299" y1="1.132" x2="1.132" transform="translate(3.172 7.696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.65"/>
+      <line id="Line_1300" data-name="Line 1300" y1="1.132" x2="1.132" transform="translate(7.696 3.172)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.25"/>
+    </g>
+  </g>
+</svg>

@@ -3,6 +3,9 @@ import 'package:flutter_svg/svg.dart';
 
 import '../colors.dart';
 import '../responsive.dart';
+import 'bt_tc.dart';
+import 'card_user.dart';
+import 'continue_with_te.dart';
 
 class ModalAccessZone extends StatelessWidget {
   const ModalAccessZone({
@@ -55,6 +58,32 @@ class ModalAccessZone extends StatelessWidget {
               fontWeight: FontWeight.w400,
             ),
           ),
+          SizedBox(height: rp.hp(2)),
+
+
+          CardUser(asset: 'assets/anonymous_perfil.svg', onTap: () {}, title: '@Anonimous_002', description: 'Anonimous', color: ColorsConst.anonymousColor, onChanged: (bool value) {  },),
+          CardUser(asset: 'assets/verify_perfil.svg', onTap: () {}, title: '@Verify_002', description: 'Verified', color: ColorsConst.verifiedColor, onChanged: (bool value) {  },),
+          CardUser(asset: 'assets/Secure_perfile.svg', onTap: () {}, title: '@Secure_002', description: 'Secure', color: ColorsConst.securedColor, onChanged: (bool value) {  },),
+          Divider(
+            color: Colors.black,
+            height: rp.hp(4),
+            thickness: 0.1,
+          ),
+          SizedBox(height: rp.hp(1)),
+
+          Text(
+            'To proceed, TripleEnable will share your username, email address, and profile picture with Tr3sPass. Before using this app, please review its privacy policy and terms of service.',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: rp.dp(1.3),
+              color: ColorsConst.blackFontFileName,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+          SizedBox(height: rp.hp(3)),
+          bt_principal(onTap: () async {
+
+          }, title: 'Sign in to selected zone', color: ColorsConst.btTE, colorTitle: Colors.white,),
         ],
       ),
     );

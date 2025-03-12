@@ -39,5 +39,6 @@ class ColorsConst {
   static const Color subtitleColor = Color(0xFF929DB2);
   static const Color blueGradient = Color(0xFF2B386D);
   static const Color btInactive = Color(0xFF707070);
+  static const Color btTE = Color(0xFF001820);
 
 }

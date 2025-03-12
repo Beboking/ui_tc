@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:test_app_chat/screens/enable_biometric.dart';
+import 'package:test_app_chat/screens/enable_notifications.dart';
 import 'package:test_app_chat/screens/log_in.dart';
 
 void main() {
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LogIn(),
+      home: EnableNotifications(),
     );
   }
 }
