@@ -4,11 +4,13 @@ import 'package:flutter_svg/svg.dart';
 import 'package:test_app_chat/colors.dart';
 
 import '../responsive.dart';
+import '../widgets/add_zones.dart';
 import '../widgets/bt_tc.dart';
 import '../widgets/card_login_zone.dart';
 import '../widgets/check_agree.dart';
 import '../widgets/continue_with_te.dart';
 import '../widgets/divider_tc.dart';
+import '../widgets/modal_accesing.dart';
 import '../widgets/modal_access_zone.dart';
 
 class LogIn extends StatefulWidget {
@@ -142,7 +144,7 @@ class _LogInState extends State<LogIn> {
       ),
       context: context,
       builder: (context) {
-        return const ModalAccessZone();
+        return const AddZones();
       },
     );
   }
