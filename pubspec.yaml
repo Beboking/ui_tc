@@ -39,6 +39,7 @@ dependencies:
   flutter_svg: ^2.0.16
   external_app_launcher: ^4.0.3
   flutter_profile_picture: ^2.0.0
+  flutter_slidable: ^4.0.0
 
 
 dev_dependencies:

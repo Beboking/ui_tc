@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app_chat/screens/contacts_blockeds.dart';
 import 'package:test_app_chat/screens/log_in.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LogIn(),
+      home: ContactsBlockeds(),
     );
   }
 }
