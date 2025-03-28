@@ -77,6 +77,16 @@ flutter:
     - assets/seguridad_cargando.svg
     - assets/Img_5_Notifications.png
     - assets/Img_1_Key.png
+    - assets/profile.svg
+    - assets/account.svg
+    - assets/mail.svg
+    - assets/phone.svg
+    - assets/instagram.svg
+    - assets/twitter.svg
+    - assets/facebook.svg
+    - assets/url.svg
+    - assets/world.svg
+    - assets/info.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

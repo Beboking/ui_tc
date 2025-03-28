@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app_chat/screens/about.dart';
+import 'package:test_app_chat/screens/asset_details.dart';
 import 'package:test_app_chat/screens/contacts_blockeds.dart';
 import 'package:test_app_chat/screens/log_in.dart';
 import 'package:test_app_chat/screens/notifications.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Notifications(),
+      home: AssetDetails(),
     );
   }
 }

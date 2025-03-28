@@ -42,12 +42,17 @@ class AboutCard extends StatelessWidget {
                     fontSize: rp.dp(1.5),
                     color: Colors.grey),
               ),
-              Text(
-                content,
-                style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: rp.dp(1.5),
-                    color: Colors.black),
+              Container(
+                width: rp.wp(60),
+                child: Text(
+                  content,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: rp.dp(1.5),
+                      color: Colors.black),
+                ),
               ),
             ],
           ),
