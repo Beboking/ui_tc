@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Verified Zone</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          padding: 10px;
+        }
+        .container {
+          max-width: 500px;
+          margin: auto;
+        }
+        h1 {
+          color: #384059;
+          font-size: 16px;
+          font-weight: 700;
+          border-bottom: 1px solid #384059;
+          padding-bottom: 4px;
+          width: 180px;
+          margin-bottom: 5px;
+        }
+        .content {
+          font-size: 12px;
+          line-height: 1.5;
+          text-align: justify;
+        }
+        .icon {
+          width: 40px;
+          display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>VERIFIED ZONE</h1>
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+            <td width="40" valign="top">
+                <img src="https://tripleaccess.triplecyber.com/wp-content/uploads/2025/04/ICS_V.png" class="icon" alt="ICS Verified">
+            </td>
+            <td width="15"></td>
+            <td class="content">
+                This email was sent from <a href="mailto:\${user.username}" style="color: #0073aa;">\${user.username}</a>
+                with an identity confidence score (<b>ICS</b>) of <b>65%</b>.
+                You can view the ICS assessment for this email by clicking on the shield or by going here:
+                <a href="\$link" style="color: #0073aa;">\$link</a>.
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

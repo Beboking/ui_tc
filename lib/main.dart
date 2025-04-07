@@ -1,44 +1,50 @@
 import 'package:flutter/material.dart';
-import 'package:test_app_chat/screens/about.dart';
 import 'package:test_app_chat/screens/asset_details.dart';
-import 'package:test_app_chat/screens/contacts_blockeds.dart';
-import 'package:test_app_chat/screens/log_in.dart';
-import 'package:test_app_chat/screens/notifications.dart';
+import 'models/transaction_model.dart';
+import 'models/user_info_data.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final userInfo = UserInfoData(
+      username: '@Gne_s',
+      accountStatus: 'Verified',
+      name: 'Sergio Pacheco',
+      photo: 'jgbjhbjbjh',
+      ics: 90,
+      nickName: '@Gne_s',
+      emails: ['gne_s@tripleenableverified.com', 'gnemail@otrocorreo.com'],
+      phones: ['+1 829 865 8228', '+1 809 123 4567', '+1 829 865 8228', '+1 809 123 4567'],
+      socialMedia: {
+        'Facebook': ['@sergio_pacheco', '@pacheco_fb'],
+        'Twitter': ['@pacheco_dev'],
+        'Instagram': ['@axmel_sp'],
+      },
+      websites: ['www.useurl.com', 'www.gne.dev'],
+      country: 'Dominican Republic',
+      joinedDate: 'Jul 17, 2024',
+    );
+
+
+    final transactionInfo = TransactionInfoData(
+      id: '0x9sjnjs92244nnsi3jn4993u43wwrfcerc434c34c34c',
+      hash: '0x9sjnjs92244nnsi3jn49933c3434c34c3c34cu4',
+      signature: '0x9sjnjs92244nnsi3c3434jn43c43c993u4',
+    );
     return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
+      title: 'Flutter WebView Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AssetDetails(),
+      home: AssetDetails(
+        userInfo: userInfo,
+        transactionInfo: transactionInfo,
+      ),
     );
   }
 }

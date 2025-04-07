@@ -42,6 +42,11 @@ dependencies:
   flutter_slidable: ^4.0.0
   fluttertoast: ^8.2.12
   url_launcher: ^6.2.4
+  flutter_inappwebview: ^6.0.0
+  pointer_interceptor: ^0.10.1+2
+  flutter_widget_from_html: 0.14.11
+  syncfusion_flutter_gauges: ^29.1.35
+
 
 
 dev_dependencies:
@@ -87,6 +92,7 @@ flutter:
     - assets/url.svg
     - assets/world.svg
     - assets/info.svg
+    - assets/sample.html
 
   # To add assets to your application, add an assets section, like this:
   # assets:

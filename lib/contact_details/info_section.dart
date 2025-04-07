@@ -25,7 +25,7 @@ class InfoSection extends StatelessWidget {
         ...(cards ?? []),
         ...(children ?? []),
         Divider(),
-        SizedBox(height: rp.hp(1.5)),
+        SizedBox(height: rp.hp(.5)),
       ],
     );
   }
